@@ -1,0 +1,93 @@
+[
+  {
+    "sort_name": "Sigi",
+    "name": "System Information Government and Institutional",
+    "images": [
+      "/projects/sigi-1.jpeg",
+      "/projects/sigi-2.jpeg",
+      "/projects/sigi-3.jpeg",
+      "/projects/mandiri-logo.png"
+    ],
+    "description": "Internal application usage for Mandiri Bank. The purpose is to make their transaction and flow easier to maintain and track. It also have data visualisation to help them make their strategy based on transaction data.",
+    "type": "company",
+    "url": "sigi",
+    "year": "2019 - 2025",
+    "stack": ["React.Js", "Bootstrap", "Ant Design", "amChart", "Redux"],
+    "role": "Front-end developer",
+    "site": null
+  },
+  {
+    "sort_name": "Wais",
+    "name": "Wholesale Alliance Information System",
+    "images": [
+      "/projects/wais-1.jpeg",
+      "/projects/wais-2.jpeg",
+      "/projects/wais-3.jpeg",
+      "/projects/bsi-logo.png"
+    ],
+    "description": "Internal application for Bank Syariah Indonesia. The purpose is make their transaction and operational data easier to maintain and generate its analytics report immediately.",
+    "type": "company",
+    "url": "wais",
+    "year": "2022 - 2025",
+    "stack": ["React.Js", "Bootstrap", "Ant Design", "amChart", "Redux"],
+    "role": "Front-end developer",
+    "site": null
+  },
+  {
+    "sort_name": "Sdb",
+    "name": "Single Dashboard",
+    "images": [
+      "/projects/sigi-1.jpeg",
+      "/projects/sigi-2.jpeg",
+      "/projects/sigi-3.jpeg",
+      "/projects/bsi-logo.png"
+    ],
+    "description": "Internal application for Bank Syariah Indonesia, that can turn any of their existing data, which is in excel formats, into visualisation. That way they can make their report faster.",
+    "type": "company",
+    "url": "sdb",
+    "year": "2024 - 2025",
+    "stack": ["React.Js", "ReactQuery", "Chakra UI", "D3", "Redux"],
+    "role": "Front-end developer",
+    "site": null
+  },
+  {
+    "sort_name": "",
+    "name": "Wildpeonies",
+    "images": ["/projects/wildpeonies-logo.png"],
+    "description": "e-commerce website for singapore brand. The purpose is to sell their clothes, dress, etc and provide a platform for their customers to buy their products.",
+    "type": "company",
+    "url": "wildpeonies",
+    "year": "2018",
+    "stack": ["Drupal", "Bootstrap", "SCSS"],
+    "role": "Front-end developer",
+    "site": "https://wildpeonies.com"
+  },
+  {
+    "sort_name": "",
+    "name": "TLCA Architects",
+    "images": [
+      "/projects/tlca-1.jpeg",
+      "/projects/tlca-2.jpeg",
+      "/projects/tlca-logo.png"
+    ],
+    "description": "Landing page for TLCA Architects. The purpose is to showcase their work and provide a platform for their clients to view their portfolio.",
+    "type": "company",
+    "url": "tlca",
+    "year": "2018",
+    "stack": ["Drupal", "Bootstrap", "SCSS"],
+    "role": "Front-end developer",
+    "site": "https://www.tlca.com.sg"
+  },
+
+  {
+    "sort_name": "",
+    "name": "Portfolio Website",
+    "images": ["/projects/portfolio-1.jpeg", "/projects/portfolio-2.jpeg"],
+    "description": "just portfolio site.",
+    "type": "personal",
+    "url": "spotify",
+    "year": "2025",
+    "stack": ["Next.Js", "Tailwind CSS", "Framer motion"],
+    "role": "everything"
+  }
+]
