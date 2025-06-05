@@ -1,4 +1,5 @@
 import { BlurTransition } from "@/components/blur-transition";
+import { Github, Mail, File } from "lucide-react";
 import Link from "next/link";
 
 export default function About() {
@@ -23,6 +24,27 @@ export default function About() {
               interfaces.
             </p>
           </div>
+          <BlurTransition index={1.2} className="flex flex-row gap-2 mt-4">
+            <Link
+              href="https://github.com/melonsoda30"
+              className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
+            >
+              <Github className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
+            </Link>
+            <Link
+              href="mailto:miftah.it2@gmail.com"
+              className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
+            >
+              <Mail className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
+            </Link>
+            <Link
+              href="https://drive.google.com/file/d/1qjSBprnZGFHKh3IjxvJAP2jTpXDnogRD/view?usp=sharing"
+              title="Download CV"
+              className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
+            >
+              <File className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
+            </Link>
+          </BlurTransition>
           <div className="">
             <BlurTransition>
               <h1 className="text-2xl font-bold text-[var(--foreground-highlight)]">

@@ -37,9 +37,9 @@
     "sort_name": "Sdb",
     "name": "Single Dashboard",
     "images": [
-      "/projects/sigi-1.jpeg",
-      "/projects/sigi-2.jpeg",
-      "/projects/sigi-3.jpeg",
+      "/projects/sdb-1.jpeg",
+      "/projects/sdb-2.jpeg",
+      "/projects/sdb-3.jpeg",
       "/projects/bsi-logo.png"
     ],
     "description": "Internal application for Bank Syariah Indonesia, that can turn any of their existing data, which is in excel formats, into visualisation. That way they can make their report faster.",
