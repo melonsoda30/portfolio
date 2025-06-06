@@ -19,7 +19,7 @@ export function ListItem({ title, name, images, url }: ListItemProps) {
 
   const [isHover, setIsHover] = useState(false);
 
-  function getMousePosition(e: React.MouseEvent<HTMLLIElement>) {
+  function getMousePosition(e: React.MouseEvent<HTMLDivElement>) {
     const rect = e.currentTarget.getBoundingClientRect();
 
     const x = e.clientX - rect.left;
@@ -36,7 +36,7 @@ export function ListItem({ title, name, images, url }: ListItemProps) {
   const yOffsets = useMemo(() => images.map(() => rangeDeg()), [images]);
 
   return (
-    <li
+    <div
       className="relative group"
       onMouseMove={getMousePosition}
       onMouseEnter={() => setIsHover(true)}
@@ -89,6 +89,6 @@ export function ListItem({ title, name, images, url }: ListItemProps) {
             })}
         </AnimatePresence>
       </>
-    </li>
+    </div>
   );
 }

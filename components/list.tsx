@@ -24,15 +24,17 @@ export async function List({
         </BlurTransition>
         <ol className="flex flex-col gap-2 py-1">
           {data.map((project, index) => (
-            <BlurTransition key={index} index={index + 1.2}>
-              <ListItem
-                key={index}
-                url={project.url}
-                title={project.sort_name}
-                name={project.name}
-                images={project.images}
-              />
-            </BlurTransition>
+            <li key={index}>
+              <BlurTransition key={index} index={index + 1.2}>
+                <ListItem
+                  key={index}
+                  url={project.url}
+                  title={project.sort_name}
+                  name={project.name}
+                  images={project.images}
+                />
+              </BlurTransition>
+            </li>
           ))}
         </ol>
       </div>

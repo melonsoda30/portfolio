@@ -26,12 +26,14 @@ export default function Home() {
         <BlurTransition index={1.2} className="flex flex-row gap-2 mt-4">
           <Link
             href="https://github.com/melonsoda30"
+            title="Github"
             className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
           >
             <Github className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
           </Link>
           <Link
             href="mailto:miftah.it2@gmail.com"
+            title="Send me an email"
             className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
           >
             <Mail className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
