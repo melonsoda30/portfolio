@@ -19,7 +19,8 @@ export default function Home() {
           {/* </BlurTransition> */}
 
           <p className="text-sm">
-            I am developer, I love to build and learn new things.
+            I am Full-Stack-Capable Front-End Developer, I love to build and
+            learn new things.
           </p>
         </BlurTransition>
 
