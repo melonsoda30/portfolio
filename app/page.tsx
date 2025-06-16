@@ -40,7 +40,7 @@ export default function Home() {
             <Mail className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1qjSBprnZGFHKh3IjxvJAP2jTpXDnogRD/view?usp=sharing"
+            href="https://drive.google.com/file/d/11b4rdbSodFrwjJeKSxTcqDrBWm35KqVh/view?usp=sharing"
             title="Download CV"
             className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
           >
