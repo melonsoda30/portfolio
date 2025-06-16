@@ -1,5 +1,5 @@
 import { BlurTransition } from "@/components/blur-transition";
-import { Github, Mail, File } from "lucide-react";
+import { Github, Mail, File, Linkedin } from "lucide-react";
 import Link from "next/link";
 
 export default function About() {
@@ -30,6 +30,13 @@ export default function About() {
             </p>
           </div>
           <BlurTransition index={1.2} className="flex flex-row gap-2 mt-4">
+            <Link
+              href="https://www.linkedin.com/in/miftahiqbalf"
+              title="LinkedIn"
+              className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
+            >
+              <Linkedin className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
+            </Link>
             <Link
               href="https://github.com/melonsoda30"
               title="Github"

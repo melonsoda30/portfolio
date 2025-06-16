@@ -1,7 +1,7 @@
 import { BlurTransition } from "@/components/blur-transition";
 import { List } from "@/components/list";
 import { NavbarHome } from "@/components/navbar-home";
-import { File, Github, Mail } from "lucide-react";
+import { File, Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -25,6 +25,13 @@ export default function Home() {
         </BlurTransition>
 
         <BlurTransition index={1.2} className="flex flex-row gap-2 mt-4">
+          <Link
+            href="https://www.linkedin.com/in/miftahiqbalf"
+            title="LinkedIn"
+            className="p-[.3rem] group hover:bg-[var(--foreground-highlight)] rounded-full transition-all duration-200 ease-in-out"
+          >
+            <Linkedin className="text-lg text-[var(--foreground-highlight)] group-hover:text-[var(--background)] transition-all duration-200 ease-in-out" />
+          </Link>
           <Link
             href="https://github.com/melonsoda30"
             title="Github"
