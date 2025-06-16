@@ -19,7 +19,7 @@ export default function Home() {
           {/* </BlurTransition> */}
 
           <p className="text-sm">
-            I am front-end developer, I love to build websites and applications.
+            I am developer, I love to build and learn new things.
           </p>
         </BlurTransition>
 

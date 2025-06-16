@@ -15,13 +15,18 @@ export default function About() {
       <BlurTransition index={1}>
         <section className="flex flex-col gap-8">
           <div className="gap-4">
-            <h1 className="text-3xl font-bold text-[var(--foreground-highlight)]">
+            <h1 className="text-3xl font-bold text-[var(--foreground-highlight)] mb-2">
               About
             </h1>
             <p>
-              I am a Front-End Developer with over 5 years of experience
-              building responsive, user-friendly, and high-performance web
-              interfaces.
+              <span className="font-bold tracking-wide">
+                Hi, I’m a Full-Stack-Capable Front-End Developer.
+              </span>
+              <br />
+              With 5+ years of experience in React and Vue, I craft responsive,
+              high-performance interfaces with a strong focus on UX and design
+              accuracy. I’m also skilled in backend tasks like API integration
+              and data handling, enabling smooth end-to-end development.
             </p>
           </div>
           <BlurTransition index={1.2} className="flex flex-row gap-2 mt-4">
@@ -101,10 +106,12 @@ export default function About() {
                   <p className=" tracking-wide">Svelte</p>
                   <p className=" tracking-wide">Tailwind CSS</p>
                   <p className=" tracking-wide">Framer Motion / Gsap</p>
+                  <p className="tracking-wide">PHP</p>
                   <p className="tracking-wide">Node.Js</p>
                   <p className=" tracking-wide">Express.Js</p>
                   <p className="tracking-wide">PostgresSQL</p>
                   <p className=" tracking-wide">MongoDB</p>
+                  <p className=" tracking-wide">Prisma / Drizzle</p>
                 </BlurTransition>
               </ol>
             </div>
